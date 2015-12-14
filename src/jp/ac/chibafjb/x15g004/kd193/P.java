@@ -12,23 +12,18 @@ public class P {
 			int v0  = sin.nextInt();
 			int v1 = sin.nextInt();
 			int v2 = sin.nextInt();
+			data[0]=data[v0];
+			data[1]=data[v1];
+			data[2]=data[v2];
 			
-			
-			System.out.println("data[0]="+v0);
-			System.out.println("data[1]="+v1);
-			System.out.println("data[2]="+v2);
-			int i = 0;
-			System.out.println("data[0] = "+v0);
-		System.out.println("data["+(i+1)+"] = "+data[i]);
-		int k = 3;
-		for(;k>0;k--){
-		data[k] = data[k-1];
-		}
-	for(int s = 1;s<4;s++){
-		System.out.println("data["+s+"] = "+data[s]);
+			System.out.println("data[0] = "+data[0]);
+			for(int i = 1;i<4;i++){
+				data[i] = data[i-1];
+			}
+	//	System.out.println("data["+s+"] = "+data[s]);
 	}
 
 	}
-}
+
 
 
