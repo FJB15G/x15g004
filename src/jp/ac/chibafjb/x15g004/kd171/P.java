@@ -11,8 +11,8 @@ public class P {
 		data[3] = 0;
 		int i = 0;
 		System.out.println("data["+(i+1)+"] = "+data[i]);
-		int k = 3;
-		for(;k>0;k--){
+		int k;
+		for(k=3;k>0;k--){
 		data[k] = data[k-1];
 		}
 	for(int a = 1;a<4;a++){
